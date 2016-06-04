@@ -52,10 +52,10 @@ $('.menu-item').click(function(event){
 });
 
 
-$( ".menu-item" ).hover(
-  function() {
-    $(this).children("ul:first").css('display', 'inline-block')
-  }, function(){
-    $(this).children("ul:first").css('display', 'none')
-  }
-);
+//$( ".menu-item" ).hover(
+//  function() {
+//    $(this).children("ul:first").css('display', 'inline-block')
+//  }, function(){
+//    $(this).children("ul:first").css('display', 'none')
+//  }
+//);
