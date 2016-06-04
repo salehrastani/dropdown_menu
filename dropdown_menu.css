@@ -1,0 +1,50 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.parks {
+    width: 200px;
+    position: relative;
+    font-family: "Helvetica";
+    list-style-type:none;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    border: solid 1px black;
+}
+
+.parks ul {
+    list-style-type:none;
+}
+
+.parks li {
+    background-color: pink;
+}
+
+.campgrounds {
+    position: absolute;
+    display: none;
+    padding-left: 65px;
+    padding-top: 0px;
+}
+
+.campgrounds li{
+    background-color: violet;
+}
+
+.campsites {
+    position: absolute;
+    display: none;
+    padding-left: 59px;
+    padding-top: 0px;
+}
+
+.campsites li {
+    background-color: green;
+}
